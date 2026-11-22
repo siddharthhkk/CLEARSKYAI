@@ -1,0 +1,51 @@
+{
+  "checkpoint": "/home/siddharth/Documents/Minor-project/weights/clearskkyai.pth",
+  "checkpoint_sha256": "eac1a8b598de5739223d3aa11c9fad6e0e00f05427ddd6683ba7eca96d3a3a56",
+  "manifest": "/home/siddharth/Documents/Minor-project/data/sentinel_demo/manifest.csv",
+  "split_filter": "test",
+  "limit": 1,
+  "ssim_window": 11,
+  "metrics": "MAE/RMSE/PSNR normalized over 13 bands; SSIM mean per-band; SAM in degrees",
+  "splits": {
+    "all": {
+      "label": "all",
+      "patches": 1,
+      "cloudy": {
+        "MAE_0_1": 0.0573622802734375,
+        "RMSE_0_1": 0.10088524780273438,
+        "PSNR_dB": 19.92344669830849,
+        "SSIM": 0.7401613180613835,
+        "SAM_degrees": 7.887165893383338
+      },
+      "output": {
+        "MAE_0_1": 0.019138340759277343,
+        "RMSE_0_1": 0.027185031127929686,
+        "PSNR_dB": 31.31340330755451,
+        "SSIM": 0.9342942743783074,
+        "SAM_degrees": 2.332909950799881
+      },
+      "mean_PSNR_gain_dB": 11.38995660924602,
+      "patches_with_positive_PSNR_gain": 1
+    },
+    "test": {
+      "label": "held-out test",
+      "patches": 1,
+      "cloudy": {
+        "MAE_0_1": 0.0573622802734375,
+        "RMSE_0_1": 0.10088524780273438,
+        "PSNR_dB": 19.92344669830849,
+        "SSIM": 0.7401613180613835,
+        "SAM_degrees": 7.887165893383338
+      },
+      "output": {
+        "MAE_0_1": 0.019138340759277343,
+        "RMSE_0_1": 0.027185031127929686,
+        "PSNR_dB": 31.31340330755451,
+        "SSIM": 0.9342942743783074,
+        "SAM_degrees": 2.332909950799881
+      },
+      "mean_PSNR_gain_dB": 11.38995660924602,
+      "patches_with_positive_PSNR_gain": 1
+    }
+  }
+}
