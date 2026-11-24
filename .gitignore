@@ -39,3 +39,4 @@ data/eval/
 # Curated LISS-IV demo assets are small, versioned examples (tracked with Git LFS).
 !data/liss4_demo/
 !data/liss4_demo/**
+__pycache__/
